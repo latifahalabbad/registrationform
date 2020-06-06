@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+  </head>
+  <body>
+    <header>
+      <h1>[BUSINESS NAME HERE]</h1>
+    </header>
+    <div class="wrapper">
+      <div class="top">
+        <h2>Signup To Our Newsletter!</h2>
+        <p>Get the latest news on whatever [BUSINESS NAME HERE] is doing right into your inbox!</p>
+      </div>
+      <hr>
+      <form>
+        <fieldset class="top">
+          <legend>Contact Information</legend>
+          <div class="box">
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="username" placeholder="John Doe" required>
+          </div>
+          <div class="box">
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="johndoe@example.com" required>
+          </div>
+          <div class="box">
+            <label for="tel">Phone Number:</label><br>
+            <input type="tel" id="tel" name="phonenumber" placeholder="(012)345-678" required>
+          </div>
+        </fieldset>
+      <br>
+      <hr>
+      <fieldset class="mid">
+        <legend>Newsletter</legend>
+        <!-- <label class="text">Select the types of newsletters you would like to receive.</label> -->
+        <div class="box">
+          <input type="checkbox" name="newsletter" id="one">
+          <label for="one">One News</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" name="newsletter" id="two">
+          <label for="two">Two News</label>
+        </div>
+        <div class="box">
+          <input type="checkbox" name="newsletter" id="three">
+          <label for="three">Three News</label>
+        </div>
+        <legend>Newsletter Format</legend>
+        <div class="box">
+        <input type="radio" name="format" id="htmlformat">
+        <label for="htmlformat">Option 1</label>
+        </div>
+        <div class="box">
+        <input type="radio" name="format" id="plainformat">
+        <label class="text" for="comments">Option 2</label>
+        </div>
+        </fieldset>
+        <br>
+        <hr>
+        <fieldset class="bottom">
+        <legend class="text">Other topics you would like to learn about:</legend>
+        <div class="box flex">
+          <br>
+          <textarea id="comments" name="comments" rows="8" cols="60"></textarea>
+        </div>
+        <br>
+        </fieldset>
+        <div class="box flex">
+          <button type="submit">Submit</button>
+        </div>
+        <br>
+          <p>This is some random text.</p>
+    </form>
+    </div>
+  </body>
+</html>

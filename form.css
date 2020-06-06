@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  font-family: sans-serif;
+}
+/*banner*/
+header{
+  text-align: center;
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/*header*/
+.wrapper{
+  margin: .5em;
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top h2, .top p{
+  text-align: center;
+}
+
+.top h2{
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+  font-size: 2em;
+}
+
+.top p{
+  margin-bottom: 2em;
+  font-size: 1.15em;
+  color: grey;
+}
+
+legend{
+    color: black;
+    padding: 2%;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 0;
+    padding-bottom: 0;
+    text-align: left;
+    margin-left: -5px;
+}
+
+.mid legend, .mid label{
+  margin-bottom: 0;
+}
+
+fieldset{
+  border: 0;
+}
+
+label{
+  font-size: 1.25em;
+}
+/*hr*/
+hr{
+  border-top: dotted 5px red;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 5px;
+    width: 100%;
+}
+
+.top .box label{
+  padding-top: 3.5%;
+    padding-left: 0;
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.top .box input{
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  flex: 1;
+  padding: .5%;
+  width: 55%;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.top .box{
+  margin-bottom: 1%;
+}
+
+textarea{
+  padding: 1%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom .text{
+  text-align: center;
+}
+
+button{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  border: none;
+  padding: 1em;
+  width: 8em;
+  font-size: 1.15rem;
+  background-color: red;
+}
+
+p{
+  text-align: center;
+    font-size: 1.25em;
+    font-style: italic;
+    padding: 1.5%;
+    padding-left: 0;
+}
